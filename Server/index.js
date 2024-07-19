@@ -17,7 +17,7 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 app.use(
   cors({
-    origin: ["doorstep-blinkit.vercel.app", "http://localhost:3000"],
+    origin: ["https://doorstep-blinkit.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
